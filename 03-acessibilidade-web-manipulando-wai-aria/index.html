@@ -172,7 +172,9 @@
           <div class="container__incricao--form-input">
             <input placeholder="Digite seu email" aria-label="email" id="inscricao" type="email" />
 
-            <button type="submit">Inscrever</button>
+            <button type="submit" onclick="alternarModal('ver-modal-inscrito', true)">
+              Inscrever
+            </button>
           </div>
         </div>
         <!-- Modal de formulário inscrito com sucesso -->
@@ -190,7 +192,12 @@
               </h2>
               <img class="cabecalho-icone-modal-enviado" src="./assets/icon-enviado.png" alt="" />
               <!-- Botão para fechar a janela modal 'ver-modal-inscrito -->
-              <button class="btn-fechar" tabindex="0" aria-label="Fechar formulário enviado">
+              <button
+                class="btn-fechar"
+                onclick="alternarModal('ver-modal-inscrito', false)"
+                tabindex="0"
+                aria-label="Fechar formulário enviado"
+              >
                 Fechar
               </button>
             </div>
@@ -428,4 +435,6 @@
       <small>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</small>
     </footer>
   </body>
+
+  <script type="text/javascript" src="main.js"></script>
 </html>
