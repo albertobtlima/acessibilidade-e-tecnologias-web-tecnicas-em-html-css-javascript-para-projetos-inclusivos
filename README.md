@@ -9,7 +9,7 @@
 
 Planos de estudo com essa formação:
 
-**React: do zero ao avançado**
+**React: do zero ao avançado** 3ª formação
 
 ---
 
